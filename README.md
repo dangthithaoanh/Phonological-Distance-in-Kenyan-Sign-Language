@@ -4,10 +4,10 @@
 
 **Technical notes**
 
-This repository contains two Colab notebooks to get the minimal pairs. 
+This repository contains two Colab notebooks to get the minimal pairs. The "phonological_distance" notebook
 
 The notebook consists of 7 code cells. Each is called a "block". Each comes with a brief description of its function.  
-To use the code, first, upload the data in Colab and change the .csv file in block 1. Make sure that you do not put it in any folder. Then set the optional parameter in block 3 and press Ctrl+F9 or click runtime -> run all to run the entire notebook. The output files will appear in the file tab, right below the input file. The total number of pairs will appear in the output field below the code cell.
+To use the code, first, upload the data in Colab and change the .csv file in block 1. Make sure that you do not put it in any folder. Then set the optional parameter in block 3 and press Ctrl+F9 or click runtime -> run all to run the entire notebook. The output files will appear in the file tab, right below the input file. The total number of pairs will appear in the output field below the code cell. If you want to run the notebook locally, replace the file name with the full path to the file.  
 
 The output consists of 2 .csv file. Each consists of the following columns:
 - the name of each pair,
