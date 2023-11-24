@@ -1,7 +1,14 @@
 # Phonological-Distance-in-Sign-Languages
 
+**Overview**
 
+ Hope: add motivation and overall goals of project 
+ Hope: add overview of components and where they are located
 
+**Phonological distance**
+
+ Hope: add the theoretical part here
+ 
 **Technical notes**
 
 This repository contains two Colab notebooks for determining phonological distance. The "phonological_distance" notebook applies conditionalities and can be used to extract minimal pairs. The "phonologial_distance_without_conditionalities" notebook will measure similarities and differences betweeen pairs of signs and generate minimal pairs without considering the conditionalities.
@@ -20,6 +27,21 @@ The "output_statistic.csv" file stores the data for all of the strings compared.
 
 To generate the pairs that differ by a specific feature (variable) and also differ by a certain number of features (variables), create a new code cell, and copy the code in "block_8.py" into the new cell. Modify the optional parameters to suit your search. Make sure that you run all of the previous blocks before running block 8.  
 
+**References**
+
+ Hope: Add references
+
+ **Acknowledgements**
+
+ Hope: add project info for Onno's VICI here ; also: my CO-FUND project
+ 
+ **Authors**
+
+ Hope: add motiva
+
+ **Copyright**
+
+ What copyright to use?
 
 
 
