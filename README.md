@@ -1,4 +1,4 @@
-# Phonological-Distance-in-Kenyan-Sign-Language
+# Phonological-Distance-in-Sign-Language
 
 
 
