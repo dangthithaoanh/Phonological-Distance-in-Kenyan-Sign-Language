@@ -49,7 +49,7 @@ Funding for this project from (1) the Centre for Language Studies at Radboud Uni
  
  **Authors**
 
-- Dang Thi Thao Anh, Radboud University, #####
+- Dang Thi Thao Anh, Radboud University, thithaoanh.dangthithaoanh at ru.nl
 - Hope E. Morgan, Radboud University, hope.morgan at ru.nl
 
 
