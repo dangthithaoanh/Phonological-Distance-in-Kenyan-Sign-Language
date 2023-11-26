@@ -2,12 +2,17 @@
 
 **Overview**
 
- Hope: add motivation and overall goals of project 
- Hope: add overview of components and where they are located
+This repository contains Python code used in a project to compare discrete phonological forms between signs—specifically the phonological distance between signs; that is, how many categorical differences there are between all pairs of signs in a lexicon. This project is based on a linguistic analysis of sign language, informed by three theoretical models of sign phonology: the Dependency Model (van der Kooij 2002; van der Hulst 1993), the Prosodic Model (Brentari 1998), and a synthesis of the two in Morgan (2022). 
+
+The Python code is one of four components in a larger project. The four components are listed here with their location in parentheses:
+1. Phonological features of signs coded in a lexical database and output as a .csv file (dataset not publicly available)
+2. String structure of phonological feature types and feature values related to each type (OSF project: ## not set up yet ## )
+3. Conditionalities for comparing each feature type between pairs of signs (listed in Morgan ##in prep##)
+4. Python script that operationalizes all three components above (this GitHub repository)
 
 **Phonological distance**
 
- Hope: add the theoretical part here
+The degree of phonological similarity between spoken words is typically measured using a Levenstein distance calculation applied to words written in an alphabetic orthography or words transcribed in a sound-based encoding, such as the International Phonetic Alphabet. Words—i.e., *signs*—in sign languages pose a number challenges for tracking phonological similarities and differences as is done in spoken languages. In spoken languages, phonological units, segments, are written as strings of sounds that crucially appear in a specific order. In contrast, the sub-parts of signs are highly simultaneous, and a single sign can contain several dozen phonological features within the main phonological parameters of handshape, location, movement, etc. Large-scale phonological comparisons between signs have improved over time, but even large-scale datasets have still been incomplete by not taking the full range of possible phonological content into account; e.g., Yu et al. (2018); Caselli et al. (2021); Martinez del Rio et al. (2022). The current measurement of phonological distance in this Python script uses a larger set of categorical differences and custom conditionalities that target only the contrastable parts of signs.
  
 **Technical notes**
 
@@ -29,19 +34,24 @@ To generate the pairs that differ by a specific feature (variable) and also diff
 
 **References**
 
- Hope: Add references
+1. Brentari, Diane. 1998. *A prosodic model of sign language phonology*. Cambridge, MA: MIT Press.
+2. Caselli, Naomi K., Karen Emmorey, & Ariel M. Cohen-Goldberg. 2021. The signed mental lexicon: Effects of phonological neighborhood density, iconicity, and childhood language experience. *Journal of Memory and Language 121*: 104282. https://doi.org/10.1016/j.jml.2021.104282
+3. Hulst, Harry van der. 1993. Units in the analysis of signs. *Phonology 10*(2). 209–241. [doi:10.1017/S095267570000004X](https://doi.org/10.1017/S095267570000004X)
+4. Kooij, Els van der. 2002. *Phonological categories in Sign Language of the Netherlands: The role of phonetic implementation and iconicity*. Leiden, Netherlands: Leiden University dissertation. [LOT publications](https://www.lotpublications.nl/phonological-categories-in-sign-language-of-the-netherlands-phonological-categories-in-sign-language-of-the-netherlands-the-role-of-phonetic-implementation-and-iconicity)
+5. Martinez del Rio, A., Ferrara, C., Kim, S. J., Hakgüder, E., & Brentari, D. 2022. Identifying the Correlations Between the Semantics and the Phonology of American Sign Language and British Sign Language: A Vector Space Approach. *Frontiers in Psychology 13*. https://doi.org/10.3389/fpsyg.2022.806471
+6. Morgan, Hope E. 2022. *A Phonological Grammar of Kenyan Sign Language*, Berlin, Boston: De Gruyter Mouton. [doi.org/10.1515/9783110765694](https://doi.org/10.1515/9783110765694)
+7. Morgan, Hope E. *Manuscript in prep*. Closing the loop: Developing a measure of phonological distance in sign languages using a dataset of minimal pairs.
+8. Shi Yu, Carlo Geraci, Natasha Abner. 2018. Sign Languages and the Online World Online Dictionaries & Lexicostatistics. *LREC Proceedings* (Proceedings of the Eleventh International Conference on Language Resources and Evaluation), May 2018, Miyazaki, Japan. ijn_03082152  https://hal.science/ijn_03082152
 
  **Acknowledgements**
 
- Hope: add project info for Onno's VICI here ; also: my CO-FUND project
+Funding for this project from (1) the Centre for Language Studies at Radboud University, and (2) the Netherlands NWO VICI grant, Deaf Communication without a Shared Language, Principal Investigator Onno Crasborn.
  
  **Authors**
 
- Hope: add motiva
+- Dang Thi Thao Anh, Radboud University, #####
+- Hope E. Morgan, Radboud University, hope.morgan at ru.nl
 
- **Copyright**
-
- What copyright to use?
 
 
 
