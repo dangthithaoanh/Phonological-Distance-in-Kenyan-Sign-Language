@@ -2,7 +2,7 @@
 
 **Overview**
 
-This repository contains Python code used in a project to compare discrete phonological forms between signs—specifically the phonological distance between signs; that is, how many categorical differences there are between all pairs of signs in a lexicon. This project is based on a linguistic analysis of sign language, informed by three theoretical models of sign phonology: the Dependency Model (van der Kooij 2002; van der Hulst 1993), the Prosodic Model (Brentari 1998), and a synthesis of the two in Morgan (2022). 
+This repository contains Python code used in a project to compare discrete phonological forms between signs—specifically, how many categorical differences there are between signs in a lexicon. This project is based on a linguistic analysis of sign language, informed by three theoretical models of sign phonology: the Dependency Model (van der Kooij 2002; van der Hulst 1993), the Prosodic Model (Brentari 1998), and a synthesis of the two (Morgan 2022). 
 
 The Python code is one of four components in a larger project. The four components are listed here with their location in parentheses:
 1. Phonological features of signs coded in a lexical database and output as a .csv file (dataset not publicly available)
@@ -12,7 +12,7 @@ The Python code is one of four components in a larger project. The four componen
 
 **Phonological distance**
 
-The degree of phonological similarity between spoken words is typically measured using a Levenstein distance calculation applied to words written in an alphabetic orthography or words transcribed in a sound-based encoding, such as the International Phonetic Alphabet. Words—i.e., *signs*—in sign languages pose a number challenges for tracking phonological similarities and differences as is done in spoken languages. In spoken languages, phonological units, segments, are written as strings of sounds that crucially appear in a specific order. In contrast, the sub-parts of signs are highly simultaneous, and a single sign can contain several dozen phonological features within the main phonological parameters of handshape, location, movement, etc. Large-scale phonological comparisons between signs have improved over time, but even large-scale datasets have still been incomplete by not taking the full range of possible phonological content into account; e.g., Yu et al. (2018); Caselli et al. (2021); Martinez del Rio et al. (2022). The current measurement of phonological distance in this Python script uses a larger set of categorical differences and custom conditionalities that target only the contrastable parts of signs.
+The degree of phonological similarity between spoken words is typically measured using a Levenstein distance calculation applied to words written in an alphabetic orthography or words transcribed in a sound-based encoding, such as the International Phonetic Alphabet. Words—i.e., *signs*—in sign languages pose a number challenges for tracking phonological similarities and differences as is done in spoken languages. In spoken languages, phonological units, segments, are written as strings of sounds that crucially appear in a specific order. In contrast, the sub-parts of signs are highly simultaneous, and a single sign can contain several dozen phonological features within the main phonological parameters of handshape, location, movement, etc. Large-scale phonological comparisons between signs have improved over time, but even recent large-scale analyses have not taken the full range of  phonological content into account; for example, Yu et al. (2018); Caselli et al. (2021); Martinez del Rio et al. (2022). The current measurement of phonological distance in this Python script uses a larger set of categorical differences and uses custom conditionalities that target only the contrastable parts of signs.
  
 **Technical notes**
 
@@ -45,7 +45,7 @@ To generate the pairs that differ by a specific feature (variable) and also diff
 
  **Acknowledgements**
 
-Funding for this project from (1) the Centre for Language Studies at Radboud University, and (2) the Netherlands NWO VICI grant, Deaf Communication without a Shared Language, Principal Investigator Onno Crasborn.
+Funding for this project from (1) the Centre for Language Studies at Radboud University, the Netherlands; and (2) NWO VICI grant, *Deaf Communication without a Shared Language* (2017-2023), Principal Investigator: Onno Crasborn.
  
  **Authors**
 
