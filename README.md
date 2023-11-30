@@ -6,8 +6,8 @@ This repository contains Python code used in a project to compare discrete phono
 
 The Python code is one of four components in a larger project. The four components are listed here with their location in parentheses:
 1. Phonological features of signs coded in a lexical database and output as a .csv file (dataset not publicly available)
-2. String structure of phonological feature types and feature values related to each type (OSF project: ## not set up yet ## )
-3. Conditionalities for comparing each feature type between pairs of signs (listed in Morgan ##in prep##)
+2. String structure of phonological feature types and feature values related to each type (OSF project: *forthcoming*)
+3. Conditionalities for comparing each feature type between pairs of signs (listed in Morgan *in prep*)
 4. Python script that operationalizes all three components above (this GitHub repository)
 
 **Phonological distance**
