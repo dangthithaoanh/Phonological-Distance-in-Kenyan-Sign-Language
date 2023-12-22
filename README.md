@@ -18,9 +18,9 @@ The degree of phonological similarity between spoken words is typically measured
 
 *Description*
 
-This repository contains two Colab notebooks for determining phonological distance. The `phonological_distance` notebook applies conditionalities and can be used to extract minimal pairs. The `phonologial_distance_without_conditionalities` notebook will measure similarities and differences betweeen pairs of signs and generate minimal pairs without considering the conditionalities.
+This repository contains two Colab notebooks for determining phonological distance. The `phonological_distance` notebook applies conditionalities and can be used to extract minimal pairs. The `phonological_distance_without_conditionalities` notebook will measure similarities and differences betweeen pairs of signs and generate minimal pairs without considering the conditionalities.
 
-The `phonological_distance` notebook consists of 7 code cells. Each is called a "block". Each comes with a brief description of its function in a text cell. The `phonologial_distance_without_conditionalities` notebook has 5 code cells.
+The `phonological_distance` notebook consists of 7 code cells. Each is called a "block". Each comes with a brief description of its function in a text cell. The `phonological_distance_without_conditionalities` notebook has 5 code cells.
 
 The output of both notebook consists of 2 `.csv` files. Each consists of the following columns:
 - the name of each pair
